@@ -1,26 +1,18 @@
 # WordPress Site Maintenance Toolkit
 
-Operational toolkit for maintaining, monitoring, and updating WordPress client sites.
+A maintenance operations plugin that records controlled admin-side maintenance runs.
 
-## Client value
+## Functional scope
 
-Reliable updates, monitoring routines, and clear maintenance handoffs.
-
-This public reference implementation demonstrates a maintainable approach to WordPress and WooCommerce client work: clean extension points, predictable deployment, and focused code.
-
-## What this starter includes
-
-- A guarded WordPress plugin bootstrap
-- A namespaced, object-oriented entry point
-- A dedicated action hook for project-specific integrations
-- A concise structure that can be expanded safely for production needs
+- Runs as a standalone WordPress plugin
+- Includes an admin settings screen and an enable/disable option
+- Implements real WordPress or WooCommerce hooks for the stated workflow
+- Cleans up its option on uninstall
 
 ## Installation
 
-1. Clone or download this repository into `wp-content/plugins/`.
-2. Activate it in **Plugins** in wp-admin.
-3. Extend the documented action hook for the client's workflow.
+Copy this repository into `wp-content/plugins/wordpress-site-maintenance-toolkit`, activate it, then open **Settings → WordPress Site Maintenance Toolkit**.
 
-## Notes
+## Production note
 
-This repository is a focused portfolio starter, not a replacement for a full discovery, QA, or production deployment process.
+This is a working reference implementation intended for discovery and adaptation to a client’s requirements. Test on staging before deployment.
