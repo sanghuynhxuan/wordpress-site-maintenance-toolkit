@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace SangPortfolio;
+namespace SangPortfolio\WordpressSiteMaintenanceToolkit;
 if (! defined('ABSPATH')) { exit; }
-final class WordpressSiteMaintenanceToolkitFeature {
+final class Feature {
     private const OPTION = 'wordpress_site_maintenance_toolkit_enabled';
     private const SLUG = 'wordpress-site-maintenance-toolkit';
     private const TITLE = 'WordPress Site Maintenance Toolkit';
